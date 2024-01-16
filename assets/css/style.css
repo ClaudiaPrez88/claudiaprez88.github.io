@@ -1,0 +1,338 @@
+html {
+  font-size: 100%; /* 100% = 16px */
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  background-color: #ffffff;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+h1,h2,h3,h4,h5{
+  color: #E94C57;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 100;
+}
+p{
+  color: #404040;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family:"Revla slab";
+  src: url(../font/RevlaSlab-Black.eot) format('eot'),
+  url(../font/RevlaSlab-Black.otf) format('otf'),
+  url(../font/RevlaSlab-Black.ttf) format('ttf'),
+  url(../font/RevlaSlab-Black.woff) format('woff');
+  font-weight: bold;
+}
+.tagline{
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+.contact-list li span{
+  font-weight: 800;
+  color: #E94C57;
+}
+.fa-solid, .fas, .fa-brands, .fab{
+  color: #E94C57;
+  margin: 0 1rem 0;
+}
+a {
+  color: #E94C57;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #84282f;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:focus {
+  text-decoration: none;
+}
+
+.contact-container a{
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
+#cv{
+  background-image: url(../images/fondo1.png);
+  background-repeat: no-repeat;
+background-position: top;
+background-size: cover;
+min-height: 400px;
+padding-top: 0px;
+}
+.fecha{
+  font-weight: 300;
+  color: #fb866a;
+}
+
+ .profile-container {
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  
+}
+.list li{
+  list-style-image: url('../images/punto.svg');
+  list-style-type:  square;
+}
+ .name {
+  font-size: 8rem;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family:"Revla slab";
+  line-height: 1.2;
+  color: #E94C57;
+}
+.sidebar-wrapper .tagline {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.perfil {
+  margin-bottom: 15px;
+  width: 100%;
+    height: auto;
+}
+.contact-container{
+  text-align: right !important;
+  height: 100%;
+}
+
+li{
+  color: #404040;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-weight: 100; 
+}
+#educacion h1, h2, h3, h4, h5 {
+  margin-top: 2rem;
+}
+footer{
+  background-image: url(../images/fondo2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: auto;
+  margin: 0px -15px;
+}
+footer p{
+  font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.3rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav-item a, a.navbar-brand, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color:#E94C57
+}
+
+/*CARD*/
+
+.card {
+  border: var(--bs-card-border-width) solid rgb(255 255 255 / 18%);
+}
+.card .menu-content {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.card .menu-content::before, .card .menu-content::after {
+  content: "";
+  display: table;
+}
+.card .menu-content::after {
+  clear: both;
+}
+.card .menu-content li {
+  display: inline-block;
+}
+.card .menu-content a {
+  color: #fff;
+}
+.card .menu-content span {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: "Open Sans";
+  transform: translate(-50%, 0);
+}
+.fa-regular, .far {
+  padding: 0 1rem 1rem;
+  font-size: 3rem;
+}
+.card .wrapper {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(132, 132, 132, 0.2);
+}
+.card .wrapper:hover .data {
+  transform: translateY(55px);
+}
+.card .data {
+  position: absolute;
+  bottom: 54px;
+  width: 100%;
+  transform: translateY(calc(70px + 1em));
+  transition: transform 0.3s;
+}
+.card .data .content {
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+  background-color: #F8F9FA;
+}
+.card .author {
+  font-size: 12px;
+}
+.wrapper h1, h2, h3, h4, h5 {
+  line-height: 0.5;
+  margin-bottom: 1rem;
+}
+.card .text {
+  height: 70px;
+  margin: 0;
+}
+.card input[type=checkbox] {
+  display: none;
+}
+.card input[type=checkbox]:checked + .menu-content {
+  transform: translateY(-60px);
+}
+
+.example-2 .wrapper:hover .menu-content span {
+  transform: translate(-50%, -10px);
+  opacity: 1;
+}
+.example-2 .header {
+  color: #fff;
+  padding: 1em;
+}
+.example-2 .header::before, .example-2 .header::after {
+  content: "";
+  display: table;
+}
+.example-2 .header::after {
+  clear: both;
+}
+.example-2 .header .date {
+  float: left;
+  font-size: 12px;
+}
+.example-2 .menu-content {
+  float: right;
+}
+.example-2 .menu-content li {
+  margin: 0 5px;
+  position: relative;
+}
+.example-2 .menu-content span {
+  transition: all 0.3s;
+  opacity: 0;
+}
+.example-2 .data {
+  color: #fff;
+  transform: translateY(calc(60px + 4em));
+}
+.example-2 .title a {
+  color: #E94C57;
+  font-size: 1.5rem;
+}
+.title a{
+  font-size: 1rem;
+}
+.example-2 .button {
+  display: block;
+  width: 100px;
+  margin: 3em auto 3em;
+  text-align: center;
+  font-size: 12px;
+  color: #E94C57;
+  line-height: 1;
+  position: relative;
+  font-weight: 800;
+}
+.example-2 .button::after {
+  content: "→";
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top:10%;
+  transform: translate(0, -10%);
+  transition: all 0.3s;
+}
+.example-2 .button:hover::after {
+  transform: translate(5px, -10%);
+  opacity: 1;
+}
+/*FIN DE CARD*/
+
+@media only screen and (max-width: 991px) {
+  .name {
+    font-size: 4rem;
+  }
+  .tagline {
+    font-size: 1.5rem;
+}
+
+#cv {
+  min-height: 326px;
+  padding-top: 50px;
+}
+body {
+  font-size: 10px;
+}
+.example-2 .data {
+  transform: translateY(calc(81px + 4em));
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+#cv {
+  min-height: 550px;
+}
+footer p {
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+}
+li {
+  font-size: 1rem;
+}
+.list-unstyled {
+  text-align: center;
+}
+
+}
