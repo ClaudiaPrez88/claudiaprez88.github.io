@@ -6,8 +6,8 @@ El link para la página de github pages es:
 **Fork del proyecto 1**.
 
 - [El primero proyecto Forkeado fue del compañero Rmedinacl](https://github.com/Dreamsroses/Dreamsroses.github.io)
-- [Cree una nueva rama llamada "Cambios" para no alterar el proyecto original del compañero]([https://example.com](https://github.com/ClaudiaPrez88/Dreamsroses.github.io/tree/cambios)).
+  [Cree una nueva rama llamada "Cambios" para no alterar el proyecto original del compañero]([https://example.com](https://github.com/ClaudiaPrez88/Dreamsroses.github.io/tree/cambios)).
 
 **Fork del proyecto 2**
 - [El segundo proyecto Forkeado fue de la compañera Dreamsroses](https://github.com/Dreamsroses/Dreamsroses.github.io)
-- [Cree una nueva rama llamada "Cambios" para no alterar el proyecto original del compañero]([https://example.com](https://github.com/ClaudiaPrez88/Dreamsroses.github.io/tree/cambios))
+  [Cree una nueva rama llamada "Cambios" para no alterar el proyecto original del compañero]([https://example.com](https://github.com/ClaudiaPrez88/Dreamsroses.github.io/tree/cambios))
